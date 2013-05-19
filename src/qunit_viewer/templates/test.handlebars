@@ -1,0 +1,6 @@
+<h1>Tests:</h1>
+<ul>
+{{#each model}}
+  <li>test: module: {{module}} name: {{name}} duration: {{duration}}: passed: {{result}} <pre class="source">{{source}}</pre><a href="#" {{action "runTest" this}}>run</a></li>
+{{/each}}
+</ul>

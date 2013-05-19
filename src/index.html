@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Oasis Unit</title>
+  <link rel="stylesheet" href="/css/conductorjs-starter-kit.css">
+</head>
+<body>
+  <script src="/vendor/jquery.js"></script>
+  <script src="/vendor/handlebars.js"></script>
+  <script src="/vendor/ember.js"></script>
+  <script src="/vendor/conductor.js"></script>
+  <script src="/test_runner/js/app.js"></script>
+  <script src="/test_runner/templates/all.js"></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    iframe {
+      display: block;
+      width: 960px;
+      height: 400px;
+      border: 1px solid white;
+      padding: 1px;
+      background: red;
+    }
+  </style>
+
+  <div class="analytics">
+    <div class="tab">Analytics</div>
+    <div class="panel">
+      <pre class="output"></pre>
+    </div>
+  </div>
+
+  <script>
+    var StarterKit = {};
+  </script>
+
+  <script src="/vendor/analytics.js"></script>
+  <script>
+    $(function() {
+      StarterKit.initializeAnalytics();
+    });
+  </script>
+<body>
+</html>
